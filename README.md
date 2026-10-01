@@ -6,14 +6,14 @@
 
 无旁白，音乐与拟音推进叙事，配少量中英双语字幕。由 **GPT-6.1 Sol** 协助完成叙事、分镜、三维场景、代码动画、剪辑与声音编排；创作者 **@ 晓刚开物**。配乐采用已有授权曲目，详细来源见 [素材说明](docs/credits.md)。
 
-[![那一针：最终成片封面](public/poster.jpg)](https://github.com/jasonz1987/gpt6-video-the-last-stitch/raw/refs/heads/main/videos/national-day-the-last-stitch.mp4)
+[![那一针：最终成片封面](public/poster.jpg)](https://github.com/jasonz1987/gpt6-video-walk-to-this-day/raw/refs/heads/main/videos/national-day-the-last-stitch.mp4)
 
 ## 观看与下载
 
 | 版本 | 内容 | 下载 |
 | --- | --- | --- |
-| 完整配乐版 | 音乐＋拟音＋中英字幕＋制作署名 | [下载最终 MP4 · 47.4 MB](https://github.com/jasonz1987/gpt6-video-the-last-stitch/raw/refs/heads/main/videos/national-day-the-last-stitch.mp4) |
-| 仅拟音版 | 保留拟音、字幕和署名，方便另配音乐 | [下载最终 MP4 · 45.9 MB](https://github.com/jasonz1987/gpt6-video-the-last-stitch/raw/refs/heads/main/videos/national-day-the-last-stitch-sfx-only.mp4) |
+| 完整配乐版 | 音乐＋拟音＋中英字幕＋制作署名 | [下载最终 MP4 · 47.4 MB](https://github.com/jasonz1987/gpt6-video-walk-to-this-day/raw/refs/heads/main/videos/national-day-the-last-stitch.mp4) |
+| 仅拟音版 | 保留拟音、字幕和署名，方便另配音乐 | [下载最终 MP4 · 45.9 MB](https://github.com/jasonz1987/gpt6-video-walk-to-this-day/raw/refs/heads/main/videos/national-day-the-last-stitch-sfx-only.mp4) |
 
 两版均为 **骑行修正版**，采用相同画面。规格：**100 秒 · 1920 × 1080 · 16:9 · 30 fps · 3000 帧 · H.264 / AAC · 48 kHz 双声道**。
 
@@ -65,8 +65,8 @@ python3 -m http.server 8773 --bind 127.0.0.1
 制作环境需要 **Node.js 22、Python 3.10+、FFmpeg / ffprobe**，以及支持 WebGL 的 Chrome Headless Shell。实际交付在 macOS 上渲染；中文使用系统宋体 `Songti SC / STSong`，英文使用 Georgia。其他系统需安装相应可用字体或修改 [Film.tsx](src/Film.tsx) 的字体设置，字形和换行可能与成片不同。
 
 ```sh
-git clone git@github.com:jasonz1987/gpt6-video-the-last-stitch.git
-cd gpt6-video-the-last-stitch
+git clone git@github.com:jasonz1987/gpt6-video-walk-to-this-day.git
+cd gpt6-video-walk-to-this-day
 npm ci
 
 python3 -m venv .venv
